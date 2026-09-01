@@ -23,7 +23,7 @@ jobs:
 
       - name: Build and lint the project.
         id: build-lean
-        uses: leanprover/lean-action@v1.6
+        uses: leanprover/lean-action@main
 
       - name: Build project documentation.
         id: build-docgen
