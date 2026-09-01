@@ -1,0 +1,10 @@
+name = "FlattenTheorems"
+version = "0.1.0"
+defaultTargets = ["FlattenTheorems"]
+
+[[require]]
+name = "Batteries"
+scope = "leanprover-community"
+
+[[lean_lib]]
+name = "FlattenTheorems"
