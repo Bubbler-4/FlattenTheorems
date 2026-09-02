@@ -31,4 +31,4 @@ jobs:
         with:
           build-page: false
           # Uncomment the next line if you wish to build a blueprint alongside your repository.
-          blueprint: true
+          # blueprint: true
