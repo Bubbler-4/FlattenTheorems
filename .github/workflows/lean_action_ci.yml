@@ -27,7 +27,8 @@ jobs:
 
       - name: Build project documentation.
         id: build-docgen
-        uses: leanprover-community/docgen-action@8c6b36d29c4d59d70087597ff2ddb2d1b96f02d6 # dwrensha@8c6b36d; see docgen-action#33
+        # merge of dwrensha@8c6b36d (see docgen-action#33) and node version fix
+        uses: leanprover-community/docgen-action@ce9719dd3168ebe7110b531bc737677497e209a6
         with:
           build-page: false
           # Uncomment the next line if you wish to build a blueprint alongside your repository.
