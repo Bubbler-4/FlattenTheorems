@@ -66,7 +66,7 @@ public theorem take_ofFn_ge (f : Fin n → α) (i : Nat) (h : n ≤ i) :
     (ofFn f).take i = ofFn f := by
   apply take_of_length_le; simpa [length_ofFn]
 
-theorem take_ofFn (f : Fin n → α) (i : Nat) :
+public theorem take_ofFn (f : Fin n → α) (i : Nat) :
     (ofFn f).take i = ofFn (n := n.min i) (fun x => f (x.castLE (by lia))) := by
   by_cases i ≤ n
   next h =>
